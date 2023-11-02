@@ -1,4 +1,5 @@
 a,a:hover,a *,a:hover *		{ transition:all .4s ease-in-out; text-decoration:none; }
+h2,h3				{ color:#4C86D7; font-family: 'Inter', sans-serif; font-weight:200; }
 header				{ position:absolute; top:0; left:0; width:100%; }
 header > div			{ margin:0 auto; position:relative; width:100%; }
 .home				{ display:inline-block; position:relative; z-index:1; }
@@ -7,6 +8,22 @@ header > div			{ margin:0 auto; position:relative; width:100%; }
 .splash				{ margin:0 auto; position:relative; }
 .splash > div			{ width:100%; }
 .tagline			{ font-family: 'Inter', sans-serif; font-weight:200; }
+.subtitle			{ color:white; }
+.download a			{ background:transparent; border:0; display:inline-block; font-size:16px; margin:0; padding:0; position:relative; }
+.download a span		{ background-color: #38D; border-radius: 4em; color:white; display: inline-block; font-size:12px; position: relative; text-transform:uppercase; z-index: 1; }
+.download a:before		{ background: #72C; content: ""; position: absolute; top: 0; left: 0; bottom: -5px; right: -5px; transform: translate(0,-5px); transition: transform .3s ease-in-out; border-radius: 4em; }
+.download a:hover::before	{ transform: translate(-5px,0); transition: transform .3s ease-in-out; }
+.download a:after		{ background: #095; content: ""; position: absolute; top: -5px; left: -5px; bottom: 0; right: 0; transform: translate(0,5px); transition: transform .3s ease-in-out; border-radius: 4em; }
+.download a:hover::after	{ transform: translate(5px,0); transition: transform .3s ease-in-out; }
+
+.brands				{ background:#fafafa; margin-top:10vmin; padding:60px 0 20px 0; text-align:center; }
+.brands img			{ display:inline-block; height:min(6vmin, 50px); margin:40px; }
+
+.quotes				{ margin-top:100px; }
+.quotes img			{ border-radius:50%; display:block; margin:0 auto; }
+.quotes blockquote		{ font-size:16px; text-align:center; }
+.quotes footer			{ font-style:normal; text-align:center; }
+.quotes ul > p			{ display:none; }
 
 @media only screen and (min-width: 768px) {
 
@@ -18,7 +35,11 @@ header > div			{ margin:0 auto; position:relative; width:100%; }
 	.menu a:hover		{ color:white; }
 	.splash			{ width:calc( 100% - 60px ); max-width:1500px; }
 	.splash > div		{ height:0; padding-bottom:50%; }
-	.tagline		{ color:#fff; font-size:Min(6vw, 90px); line-height:1.2; padding-left:7%; padding-top:Min(17%, 220px); }
+	.tagline		{ color:#fff; font-size:Min(4vw, 60px); line-height:1.2; padding-left:7%; padding-top:Min(20%, 17%); }
+	.subtitle		{ font-size:Min(1.6vw, 15px); padding-left:7%; width:42%; }
+	.download		{ margin-top: min(3vw, 40px); padding-left:7%; width:36%; text-align:center; }
+	.download a span	{ padding: min(14px, 1vw) 36px; }
+	.intro			{ margin-top:100px; }
 	.video-mask		{ -webkit-mask-box-image: url(img/video-mask.svg); }
 	.devices		{ display:inline-block; position:absolute; width:33%; right:10%; bottom:0; }
 	.devices img		{ display:inline-block; width:100%; height:auto; }
@@ -35,6 +56,7 @@ header > div			{ margin:0 auto; position:relative; width:100%; }
 
 @media only screen and (max-width: 767px) {
 
+	br.nomob		{ display:none; }
 	.menu			{ background:#225; background-color:rgba(35,35,85,.97); border-radius:15px; margin:0; padding:40px 0; opacity:0; position:absolute; top:100px; left:19px; transform:translateY(15px); width:calc(100% - 40px); visibility:hidden; z-index:1000; }
 	.menu li		{ opacity:0; }
 	.menu.active		{ display:block !important; opacity:1; transform:none; transition:all .3s ease-in-out; visibility:visible; }
@@ -60,9 +82,13 @@ header > div			{ margin:0 auto; position:relative; width:100%; }
 	.change .bar2		{ opacity:0; }
 	.change .bar3		{ transform:rotate(-45deg) translate(5px, -8px); }
 	.splash			{ width:100%; }
-	.tagline		{ color:white; font-size:9vw; padding-top:30%; text-align:center; }
+	.tagline		{ color:white; font-size:6vw; padding-top:30%; text-align:center; }
+	.subtitle		{ margin:0 auto; text-align:center; width:75%; }
+	.download		{ margin-top: 35px; width:100%; text-align:center; }
+	.download a span	{ padding: 12px 36px; }
 	.video-mask		{ height:100vw !important; }
 	.devices		{ display:block; margin:70px auto; width:70vw; }
+	.brands br		{ display:none; }
 
 }
 
