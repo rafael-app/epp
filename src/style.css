@@ -1,5 +1,5 @@
 a,a:hover,a *,a:hover *		{ transition:all .4s ease-in-out; text-decoration:none; }
-h2,h3				{ color:#4C86D7; font-family: 'Inter', sans-serif; font-weight:200; }
+h2,h3				{ color:#4C86D7; font-family: 'Libre Franklin', sans-serif; font-weight:200; }
 header				{ position:absolute; top:0; left:0; width:100%; }
 header > div			{ margin:0 auto; position:relative; width:100%; }
 .home				{ display:inline-block; position:relative; z-index:1; }
@@ -7,7 +7,7 @@ header > div			{ margin:0 auto; position:relative; width:100%; }
 .logotype			{ position:relative; }
 .splash				{ margin:0 auto; position:relative; }
 .splash > div			{ width:100%; }
-.tagline			{ font-family: 'Inter', sans-serif; font-weight:200; }
+.tagline			{ font-family: 'Libre Franklin thin', sans-serif; font-weight:200; }
 .subtitle			{ color:white; }
 .download a			{ background:transparent; border:0; display:inline-block; font-size:16px; margin:0; padding:0; position:relative; }
 .download a span		{ background-color: #38D; border-radius: 4em; color:white; display: inline-block; font-size:12px; position: relative; text-transform:uppercase; z-index: 1; }
@@ -16,14 +16,51 @@ header > div			{ margin:0 auto; position:relative; width:100%; }
 .download a:after		{ background: #095; content: ""; position: absolute; top: -5px; left: -5px; bottom: 0; right: 0; transform: translate(0,5px); transition: transform .3s ease-in-out; border-radius: 4em; }
 .download a:hover::after	{ transform: translate(5px,0); transition: transform .3s ease-in-out; }
 
+.areas				{ margin-top:100px; }
+.areas span			{ background:#4C86D7; border-radius:10px; display:block; padding:25px 0; }
+.areas img			{ width:30px; height:30px; opacity:0.5; }
+.areas p			{ color:white; font-size:12px; margin:10px 0 0 0; text-transform:uppercase; }
+
 .brands				{ background:#fafafa; margin-top:10vmin; padding:60px 0 20px 0; text-align:center; }
 .brands img			{ display:inline-block; height:min(6vmin, 50px); margin:40px; }
+
+.corners			{ border-radius:20px; }
 
 .quotes				{ margin-top:100px; }
 .quotes img			{ border-radius:50%; display:block; margin:0 auto; }
 .quotes blockquote		{ font-size:16px; text-align:center; }
 .quotes footer			{ font-style:normal; text-align:center; }
 .quotes ul > p			{ display:none; }
+
+@keyframes clockwise		{ from { transform:rotate(0deg); } to { transform:rotate(360deg); } }
+.icons				{ background:#4C86D7; margin:100px 0; padding:50px 0; text-align:center; }
+.icons svg			{ display:inline-block; height:70vh; }
+.icons #Layer_1			{ animation:clockwise 300s linear; transform-origin:50% 50%; }
+.icons #Layer_1 *		{ fill:#bbf !important; }
+
+body > footer			{ background:#237; padding:100px 0; }
+body > footer *			{ color:white; }
+body > footer hr		{ border-top:1px solid #4C86D7; opacity:.5; }
+body > footer h4		{ color:#4C86D7; font-size:13px; text-transform:uppercase;}
+body > footer ul		{ list-style:none; padding:0; }
+body > footer li		{ color:#6EB5E3; font-size:14px; }
+body > footer li + li		{ margin-top:5px; }
+body > footer a			{ color:#6EB5E3; font-size:14px; }
+body > footer a:hover		{ color:#fff; }
+body > footer .logo img		{ width:90px; height:64px; }
+body > footer .ready		{ margin-bottom:40px; }
+body > footer .download		{ width:100%; }
+body > footer .download span	{ min-width:85px; }
+body > footer .copyright	{ color:#6EB5E3; font-size:14px; }
+.spacer				{ padding-bottom:10px; padding-top:10px; }
+.copyright *			{ display:inline-block; }
+.copyright li+li		{ margin-left:30px; }
+.social li			{ display:inline-block; }
+.social li+li			{ margin-left:30px; }
+.social a img			{ opacity:0.5; }
+.social a:hover img		{ opacity:1; }
+
+
 
 @media only screen and (min-width: 768px) {
 
@@ -39,10 +76,12 @@ header > div			{ margin:0 auto; position:relative; width:100%; }
 	.subtitle		{ font-size:Min(1.6vw, 15px); padding-left:7%; width:42%; }
 	.download		{ margin-top: min(3vw, 40px); padding-left:7%; width:36%; text-align:center; }
 	.download a span	{ padding: min(14px, 1vw) 36px; }
+	.next .download		{ margin-top:0; padding-left:0; }
 	.intro			{ margin-top:100px; }
 	.video-mask		{ -webkit-mask-box-image: url(img/video-mask.svg); }
 	.devices		{ display:inline-block; position:absolute; width:33%; right:10%; bottom:0; }
 	.devices img		{ display:inline-block; width:100%; height:auto; }
+	.copyright ul		{ margin-left:30px; }
 
 }
 
@@ -89,6 +128,8 @@ header > div			{ margin:0 auto; position:relative; width:100%; }
 	.video-mask		{ height:100vw !important; }
 	.devices		{ display:block; margin:70px auto; width:70vw; }
 	.brands br		{ display:none; }
+	.icons svg		{ height:100vw; }
+	.copyright nav		{ display:block; margin-top:20px; }
 
 }
 
@@ -112,4 +153,27 @@ header > div			{ margin:0 auto; position:relative; width:100%; }
 .logotype .ticket		{ transform:rotate(18deg); transform-origin:18% 55%; transition:all .5s ease-in-out; }
 .logotype svg:hover .ticket	{ transform:rotate(72deg) translateY(-5%); transition:all .5s ease-in-out; }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap&');
+@font-face {
+	font-family: 'Libre Franklin thin';
+	src: url('./fonts/LibreFranklin-Thin.woff2') format('woff2'),
+	     url('./fonts/LibreFranklin-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Libre Franklin light';
+	src: url('./fonts/LibreFranklin-Light.woff2') format('woff2'),
+	     url('./fonts/LibreFranklin-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Libre Franklin';
+	src: url('./fonts/LibreFranklin-Regular.woff2') format('woff2'),
+	     url('./fonts/LibreFranklin-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}    

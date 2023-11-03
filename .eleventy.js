@@ -1,6 +1,8 @@
 module.exports = function (eleventyConfig) {
 
 	// Copy `img/` to `_site/img`
+	eleventyConfig.addPassthroughCopy("favicon");
+	eleventyConfig.addPassthroughCopy("fonts");
 	eleventyConfig.addPassthroughCopy("img");
 
 	// Copy the stylesheet specifically
