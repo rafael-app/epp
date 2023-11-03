@@ -38,6 +38,11 @@ header > div			{ margin:0 auto; position:relative; width:100%; }
 .icons #Layer_1			{ animation:clockwise 300s linear; transform-origin:50% 50%; }
 .icons #Layer_1 *		{ fill:#bbf !important; }
 
+.features .mask			{ display:inline-block; overflow:hidden; }
+.features h3			{ display:block; margin:0; overflow:hidden; }
+.features h3 span		{ display:inline-block; }
+.features img			{ border-radius:10px; }
+
 body > footer			{ background:#237; padding:100px 0; }
 body > footer *			{ color:white; }
 body > footer hr		{ border-top:1px solid #4C86D7; opacity:.5; }
@@ -129,6 +134,7 @@ body > footer .copyright	{ color:#6EB5E3; font-size:14px; }
 	.devices		{ display:block; margin:70px auto; width:70vw; }
 	.brands br		{ display:none; }
 	.icons svg		{ height:100vw; }
+	.features .uk-flex	{ display:block; }
 	.copyright nav		{ display:block; margin-top:20px; }
 
 }

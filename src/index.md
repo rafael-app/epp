@@ -87,55 +87,7 @@ bodyclass: index
 {% include '_icons.html' %}
 </div>
 
-
-
-
-
-
-
-
-
-<div class="uk-container uk-container-xlarge">
-<div id="js-sticky-parallax-images-all" style="min-height: 200vh" uk-grid="" class="uk-grid uk-grid-large">
-
-<div class="uk-width-1-3 uk-width-expand@m uk-first-column">
-<div class="uk-sticky-placeholder" style="height: 0px; width: 0px; margin: 0px;" hidden=""></div>
-	<div class="uk-height-viewport uk-sticky" uk-sticky="end: #js-sticky-parallax-images-all" style="position: sticky; top: 0px;">
-	<div uk-parallax="target: #js-sticky-parallax-images-all; y: 55vh, 45vh;" style="transform: translateY(54.7558vh); will-change: transform;">
-		<img class="uk-position-center-left corners" src="img/venue.jpg" width="1500" height="1000" alt="" uk-parallax="target: #js-sticky-parallax-images-all; start: 100vh; end: 100% + 100vh - 160vh; opacity: 1,1 99%,0; easing: 0" style="opacity: 1; will-change: opacity;">
-		<img class="uk-position-center-left corners" src="img/guest.jpg" width="1500" height="1000" alt="" uk-parallax="target: #js-sticky-parallax-images-all; start: 150vh; end: 100% + 100vh - 210vh; opacity: 0,1 16.666%,1 99%,0; easing: 0" style="opacity: 0; will-change: opacity;">
-		<img class="uk-position-center-left corners" src="img/vendors.jpg" width="1500" height="1000" alt="" uk-parallax="target: #js-sticky-parallax-images-all; start: 200vh; end: 100% + 100vh - 250vh; opacity: 0,1 20%,1; easing: 0" style="opacity: 0; will-change: opacity;">
-	</div>
-	</div>
-</div>
-
-<div class="uk-width-2-3 uk-width-2-5@m">
-<div class="uk-sticky-placeholder" style="height: 0px; width: 0px; margin: 0px;" hidden=""></div>
-<div class="uk-height-viewport uk-sticky" uk-sticky="end: #js-sticky-parallax-images-all" style="position: sticky; top: 0px;">
-<div uk-parallax="target: #js-sticky-parallax-images-all; y: 55vh, 45vh;" style="transform: translateY(54.7558vh); will-change: transform;">
-<div class="uk-position-center-left" uk-parallax="target: #js-sticky-parallax-images-all; start: 100vh; end: 100% + 100vh - 150vh; opacity: 0,1 20%,1 80%,0" style="opacity: 0; will-change: opacity;">
-	<h2>Venue Management</h2>
-	<p>Streamline venue selection with a comprehensive venue database, real-time availability checks and the ability to manage contracts digitally.</p>
-	<p>Additionally, we bring the convenience of virtual venue tours, allowing event organizers to explore event spaces from their desks.</p>
-</div>
-<div class="uk-position-center-left" uk-parallax="target: #js-sticky-parallax-images-all; start: 150vh; end: 100% + 100vh - 200vh; opacity: 0,1 20%,1 80%,0" style="opacity: 0; will-change: opacity;">
-	<h2>Guest Management</h2>
-	<p>Simplify guest management by integrating seamlessly with a CRM system, enabling detailed customer profiles for a personalized guest experience.</p>
-	<p>Invitation and RSVP tracking, table seating assignments, and efficient check-in and badge printing, ensuring smooth guest interactions throughout the event.</p>
-</div>
-<div class="uk-position-center-left" uk-parallax="target: #js-sticky-parallax-images-all; start: 200vh; end: 100% + 100vh - 250vh; opacity: 0,1 20%,1" style="opacity: 0; will-change: opacity;">
-	<h2>Vendor Management</h2>
-	<p>Vendor selection and coordination with its vendor directory, RFP management, and contract tracking. It also includes a budget tracking feature, helping event planners stay within budget and ensure vendor accountability.</p>
-	<p>Smooth and efficient relationship with event service providers.</p>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-
-
+{% include '_features.html' %}
 
 <div class="uk-container uk-margin-large-bottom intro">
 <div uk-grid>
@@ -170,4 +122,5 @@ ScrollReveal().reveal('.menu li', { delay:100, interval: 40 });
 ScrollReveal().reveal('.tagline span', { delay:100, interval: 150 });
 ScrollReveal().reveal('.devices', { delay:500, scale:.95, distance: '20px' });
 ScrollReveal().reveal('h2,h3,.areas span,.brands img,.logo img', { interval:40, scale:.95, distance:'15px' });
+ScrollReveal().reveal('h3 span', { interval:120, distance: '80px' });
 </script>
