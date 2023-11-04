@@ -82,7 +82,7 @@ body > footer .copyright	{ color:#6EB5E3; font-size:14px; }
 	.download		{ margin-top: min(3vw, 40px); padding-left:7%; width:36%; text-align:center; }
 	.download a span	{ padding: min(14px, 1vw) 36px; }
 	.next .download		{ margin-top:0; padding-left:0; }
-	.intro			{ margin-top:100px; }
+	.intro			{ margin-top:60px; }
 	.video-mask		{ -webkit-mask-box-image: url(img/video-mask.svg); }
 	.devices		{ display:inline-block; position:absolute; width:33%; right:10%; bottom:0; }
 	.devices img		{ display:inline-block; width:100%; height:auto; }

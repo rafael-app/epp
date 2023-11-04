@@ -28,7 +28,7 @@ bodyclass: index
 <h2 class="tagline"><span>Create</span> <span>Unforgettable</span> <br> <span>Events</span> <span>Seamlessly</span></h2>
 <p class="subtitle">From Elegant Weddings and Corporate Conferences to Lively Music Festivals and Charity Fundraisers, the Journey of Planning and Executing an Event can be Exciting Again!</p>
 <p class="download"><a href="#"><span>Book a Demo</span></a></p>
-<video class="video-mask" src="https://rafael.app/epp.mp4" style="background-color:#237; z-index:-1;" autoplay loop muted playsinline uk-cover></video>
+<video class="video-mask" style="background-color:#237; z-index:-1;" autoplay loop muted playsinline uk-cover><source src="https://rafael.app/epp.mp4" type="video/mp4" /><source src="https://rafael.app/epp.ogv" type="video/ogg" /></video>
 <div class="devices"><img src="img/devices.png" alt="devices" uk-parallax="y: -50"></div>
 </div>
 </div>
