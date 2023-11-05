@@ -18,6 +18,7 @@ h2,h3,h4			{ color:#4C86D7; font-family: 'Libre Franklin bold', sans-serif; font
 .download a:hover::before	{ transform: translate(-5px,0); transition: transform .3s ease-in-out; }
 .download a:after		{ background: #095; content: ""; position: absolute; top: -5px; left: -5px; bottom: 0; right: 0; transform: translate(0,5px); transition: transform .3s ease-in-out; border-radius: 4em; }
 .download a:hover::after	{ transform: translate(5px,0); transition: transform .3s ease-in-out; }
+.video				{ background-color:#237; z-index:-2; }
 
 .areas				{ margin-top:100px; }
 .areas span			{ background:#4C86D7; border-radius:10px; display:block; padding:25px 0; }
@@ -40,8 +41,8 @@ h2,h3,h4			{ color:#4C86D7; font-family: 'Libre Franklin bold', sans-serif; font
 .quotes ul > p			{ display:none; }
 
 @keyframes clockwise		{ from { transform:rotate(0deg); } to { transform:rotate(360deg); } }
-.icons				{ background:#4C86D7; margin:100px 0; padding:50px 0; text-align:center; }
-.icons svg			{ display:inline-block; height:70vh; }
+.icons				{ background:#4C86D7 url(img/phone.png) no-repeat center center; background-size:contain; margin:100px 0; padding:50px 0; text-align:center; }
+.icons svg			{ display:inline-block; height:70vh; max-height:700px !important; }
 .icons #Layer_1			{ animation:clockwise 300s linear; transform-origin:50% 50%; }
 .icons #Layer_1 *		{ fill:#bbf !important; }
 
@@ -152,7 +153,7 @@ body > footer .copyright	{ color:#6EB5E3; font-size:14px; }
 	.subtitle		{ margin:0 auto; text-align:center; width:75%; }
 	.download		{ margin-top: 35px; width:100%; text-align:center; }
 	.download a span	{ padding: 12px 36px; }
-	.video			{ height:120vw !important; }
+	.video			{ height:140vw !important; }
 	.devices		{ display:block; margin:70px auto; width:70vw; }
 	.brands br		{ display:none; }
 	.icons svg		{ height:100vw; }

@@ -30,7 +30,7 @@ bodyclass: index
 <p class="subtitle">From Elegant Weddings and Corporate Conferences to Lively Music Festivals and Charity Fundraisers, the Journey of Planning and Executing an Event can be Exciting Again!</p>
 <p class="download"><a href="#"><span>Book a Demo</span></a></p>
 <div class="mask"></div>
-<video class="video" style="background-color:#237; z-index:-2;" autoplay loop muted playsinline uk-cover><source src="https://rafael.app/epp.mp4" type="video/mp4" /><source src="https://rafael.app/epp.ogv" type="video/ogg" /></video>
+<video class="video" autoplay loop muted playsinline uk-cover><source src="https://rafael.app/epp.mp4" type="video/mp4" /><source src="https://rafael.app/epp.ogv" type="video/ogg" /></video>
 <div class="devices"><img src="img/devices.png" alt="devices" uk-parallax="y: -50"></div>
 </div>
 </div>
