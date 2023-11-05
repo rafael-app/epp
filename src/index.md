@@ -11,7 +11,7 @@ bodyclass: index
 	<li><a href="#">Solutions</a></li>
 	<li><a href="#">Pricing</a></li>
 	<li><a href="#">FAQ</a></li>
-	<li><a href="#">Blog</a></li>
+	<li><a href="#blog">Blog</a></li>
 	<li><a href="#">About</a></li>
 	<li><a href="#">Contact</a></li>
 </ul></nav>
@@ -28,7 +28,8 @@ bodyclass: index
 <h2 class="tagline"><span>Create</span> <span>Unforgettable</span> <br> <span>Events</span> <span>Seamlessly</span></h2>
 <p class="subtitle">From Elegant Weddings and Corporate Conferences to Lively Music Festivals and Charity Fundraisers, the Journey of Planning and Executing an Event can be Exciting Again!</p>
 <p class="download"><a href="#"><span>Book a Demo</span></a></p>
-<video class="video-mask" style="background-color:#237; z-index:-1;" autoplay loop muted playsinline uk-cover><source src="https://rafael.app/epp.mp4" type="video/mp4" /><source src="https://rafael.app/epp.ogv" type="video/ogg" /></video>
+<div class="mask"></div>
+<video class="video" style="background-color:#237; z-index:-2;" autoplay loop muted playsinline uk-cover><source src="https://rafael.app/epp.mp4" type="video/mp4" /><source src="https://rafael.app/epp.ogv" type="video/ogg" /></video>
 <div class="devices"><img src="img/devices.png" alt="devices" uk-parallax="y: -50"></div>
 </div>
 </div>
@@ -39,7 +40,7 @@ bodyclass: index
 <div class="uk-width-3-5@s">
 <p><b>Event Planner Pro</b> is a cutting-edge software solution that has redefined the way event organizers and planners approach their craft. No longer are you constrained by the hassles of manual management, disorganized spreadsheets, or the chaos of paperwork.</p>
 <p>With EventPlanner Pro, you have a powerful ally in your quest to create unforgettable events.</p>
-<h3>Seamlessness Redefined</h3>
+<h3 class="g">Seamlessness Redefined</h3>
 <p>Our platform is engineered to simplify the complex art of event management. Its intuitive interface and robust features are designed to save you time, reduce stress, and enhance your efficiency, whether you're a professional event planner or someone planning an event as a one-off task, our software covers all your bases:</p>
 <div class="uk-width-1-5@s"></div>
 </div>
@@ -93,34 +94,29 @@ bodyclass: index
 <div uk-grid>
 <div class="uk-width-1-5@s"></div>
 <div class="uk-width-3-5@s">
-<h3>The Power of Simplicity</h3>
+<h3 class="g">The Power of Simplicity</h3>
 <p>What sets EventPlanner Pro apart from the crowd is its commitment to simplifying every aspect of event planning. No more headaches, sleepless nights, or last-minute rushes. Event planning should be enjoyable and fulfilling, and EventPlanner Pro is here to make it just that.</p>
 <p>In an industry where attention to detail is paramount, EventPlanner Pro excels by letting you focus on what truly matters - creating unforgettable events.</p>
-<h3>Get Started with EventPlanner Pro Today</h3>
+<h3 class="g">Get Started with EventPlanner Pro Today</h3>
 <p>Your journey to event planning excellence starts here. Join the ranks of event planners who have experienced the transformation brought by EventPlanner Pro. Unlock the potential to deliver seamless and unforgettable events.</p>
+<p class="cta"><a href="#" class="uk-button uk-button-primary">Book a Demo</a></p>
 <div class="uk-width-1-5@s"></div>
 </div>
 </div>
 </div>
 
+<a name="blog"></a>
 
-{% include '_footer.html' %}
-
-
-<script src="uikit.min.js"></script>
-<script>
-// Burger Menu: adds 'active' class to menu when menu button is clicked.
-const menu_btn = document.querySelector('.menu-btn');
-const menu = document.querySelector('.menu');
-menu_btn.addEventListener('click', () => {
-	menu.classList.toggle('faded');
-	menu.classList.toggle('active');
-	menu_btn.classList.toggle('change');
-});
-// ScrollReveal animations
-ScrollReveal().reveal('.menu li', { delay:100, interval: 40 });
-ScrollReveal().reveal('.tagline span', { delay:100, interval: 150 });
-ScrollReveal().reveal('.devices', { delay:500, scale:.95, distance: '20px' });
-ScrollReveal().reveal('h2,h3,.areas span,.brands img,.logo img', { interval:40, scale:.95, distance:'15px' });
-ScrollReveal().reveal('h3 span', { interval:120, distance: '80px' });
-</script>
+<div class="blog">
+<div class="uk-container">
+<div uk-grid>
+<div class="uk-width-1-1 uk-margin-small-bottom"><h4 class="g">From our Blog</h4></div>
+{% for post in collections.blog %}
+<div class="uk-width-1-3@s uk-text-center"><a href="{{ post.url }}">
+	<img src="{{ post.data.image }}" alt="Event Planner Pro blog: {{ post.data.title }}">
+	<p>{{ post.data.title }}</p>
+</a></div>
+{% endfor %}
+</div>
+</div>
+</div>

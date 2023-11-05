@@ -27,7 +27,44 @@
 </head>
 <body class="{{ bodyclass }}">
 
+<header>
+<div class="uk-container">
+<a href="/" class="home"><img src="/img/P.svg" width="70" height="50"></a> <span>Blog</span>
+<nav class="menu"><ul>
+	<li><a href="/">Home</a></li>
+	<li><a href="#">Features</a></li>
+	<li><a href="#">Solutions</a></li>
+	<li><a href="#">Pricing</a></li>
+	<li><a href="#">FAQ</a></li>
+	<li class="parent"><a href="#">Blog</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Contact</a></li>
+</ul></nav>
+<div class="menu-btn">
+	<div class="bar bar1"></div>
+	<div class="bar bar2"></div>
+	<div class="bar bar3"></div>
+
+</div>
+</header>
+
+<main>
+<div class="uk-container uk-margin-large-bottom">
+<img src="{{ image }}">
+<h1 class="g uk-margin-medium-bottom">{{ title }}</h1>
+
+<div class="uk-container uk-container-xsmall">
 {{ content | safe }}
+
+<div class="uk-margin uk-margin-large-top uk-margin-large-bottom">
+<hr>
+</div>
+
+<p class="cta"><a href="/" class="uk-button uk-button-primary">Back Home</a></p>
+
+</div>
+</div>
+</main>
 
 <footer>
         <div class="uk-container">
@@ -116,10 +153,7 @@ menu_btn.addEventListener('click', () => {
 });
 // ScrollReveal animations
 ScrollReveal().reveal('.menu li', { delay:100, interval: 40 });
-ScrollReveal().reveal('.tagline span', { delay:100, interval: 150 });
-ScrollReveal().reveal('.devices', { delay:500, scale:.95, distance: '20px' });
-ScrollReveal().reveal('h2,h3,.areas span,.brands img,.logo img', { interval:40, scale:.95, distance:'15px' });
-ScrollReveal().reveal('h3 span', { interval:120, distance: '80px' });
+ScrollReveal().reveal('h1, h2, h3, header span, .logo img', { scale:.95, distance: '20px' });
 </script>
 </body>
 </html>
