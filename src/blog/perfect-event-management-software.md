@@ -1,9 +1,11 @@
 ---
-title: How to Plan and Design the Perfect Event with Event Planning Software
-image: "/img/blog/blog1.jpg"
+title: "How to Plan and Design the Perfect Event with Event Management Software"
+description: "Planning and designing an event can be a daunting task, but with the right event management software, it can be a breeze."
+image: "/img/blog/event-management-software.jpg"
+slug: "perfect-event-management-software"
 ---
 
-<p>Planning and designing an event can be a daunting task, but with the right event planning software, it can be a breeze. Event planning software can help you with everything from managing your budget and guest list to creating a stunning event website and marketing materials.</p>
+<p>Planning and designing an event can be a daunting task, but with the right event management software, it can be a breeze. Event planning software can help you with everything from managing your budget and guest list to creating a stunning event website and marketing materials.</p>
 
 <p>In this blog post, we will discuss how to use event planning software to plan and design the perfect event. We will cover the following topics:</p>
 

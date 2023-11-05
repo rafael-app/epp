@@ -1,13 +1,15 @@
 ---
-title: "Free Event Planning Software for Beginners: A Step-by-Step Guide to Getting Started"
-image: "/img/blog/blog3.jpg"
+title: "Free Event Design Software for Beginners: A Step-by-Step Guide to Getting Started"
+description: "Designing your first event can be daunting, but it doesn't have to be. With the right tools, you can make the process easier and more enjoyable."
+image: "/img/blog/event-design-software.jpg"
+slug: "free-event-design-software-beginners-guide"
 ---
 
-<p>Planning your first event can be daunting, but it doesn't have to be. With the right tools, you can make the process easier and more enjoyable. One of the best tools for beginner event planners is free event planning software.</p>
+<p>Designing your first event can be daunting, but it doesn't have to be. With the right tools, you can make the process easier and more enjoyable. One of the best tools for beginner event planners is free event planning software.</p>
 
 <h2>What is free event planning software?</h2>
 
-<p>Free event planning software is software that allows you to plan and manage your event without having to pay a fee. There are many different free event planning software programs available, each with its own unique features and benefits.</p>
+<p>Free event design software is software that allows you to plan and manage your event without having to pay a fee. There are many different free event planning software programs available, each with its own unique features and benefits.</p>
 
 <h2>How to choose the right free event planning software for you</h2>
 

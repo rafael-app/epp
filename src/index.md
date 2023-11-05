@@ -1,5 +1,6 @@
 ---
-title: Event Planner Pro®
+title: "Event Planner Pro® · #1 Event Management Software, Event Planning & Design"
+description: "All-in-one solution, includes everything you need to create and promote your events, manage registrations, and track your results. FREE DEMO available!"
 layout: "base.njk"
 bodyclass: index
 ---
@@ -38,9 +39,10 @@ bodyclass: index
 <div uk-grid>
 <div class="uk-width-1-5@s"></div>
 <div class="uk-width-3-5@s">
+<h1 class="g">#1 Event Management Software</h1>
 <p><b>Event Planner Pro</b> is a cutting-edge software solution that has redefined the way event organizers and planners approach their craft. No longer are you constrained by the hassles of manual management, disorganized spreadsheets, or the chaos of paperwork.</p>
 <p>With EventPlanner Pro, you have a powerful ally in your quest to create unforgettable events.</p>
-<h3 class="g">Seamlessness Redefined</h3>
+<h3 class="g">Why Use Event Planning Software?</h3>
 <p>Our platform is engineered to simplify the complex art of event management. Its intuitive interface and robust features are designed to save you time, reduce stress, and enhance your efficiency, whether you're a professional event planner or someone planning an event as a one-off task, our software covers all your bases:</p>
 <div class="uk-width-1-5@s"></div>
 </div>
@@ -51,19 +53,19 @@ bodyclass: index
 <div class="uk-container areas">
 <div class="uk-grid-medium" uk-grid>
 	<div class="uk-width-1-4@s uk-width-1-2 uk-text-center"><span>
-		<img src="./img/icons/guest.svg">
+		<img src="./img/icons/guest.svg" alt="event management software - online registration">
 		<p>Online Registration</p>
 	</span></div>
 	<div class="uk-width-1-4@s uk-width-1-2 uk-text-center"><span>
-		<img src="./img/icons/ticket.svg">
+		<img src="./img/icons/ticket.svg" alt="event management software - tickets">
 		<p>Effortless Ticketing</p>
 	</span></div>
 	<div class="uk-width-1-4@s uk-width-1-2 uk-text-center"><span>
-		<img src="./img/icons/hub.svg">
+		<img src="./img/icons/hub.svg" alt="event management software - communications">
 		<p>Communication Hub</p>
 	</span></div>
 	<div class="uk-width-1-4@s uk-width-1-2 uk-text-center"><span>
-		<img src="./img/icons/data.svg">
+		<img src="./img/icons/data.svg" alt="event management software - reports">
 		<p>Event Analysis</p>
 	</span></div>
 </div>
@@ -71,15 +73,15 @@ bodyclass: index
 
 <div class="brands">
 	<p>Trusted by:</p>
-	<img src="./img/brand/basset-events.svg">
-	<img src="./img/brand/blackrock.svg">
-	<img src="./img/brand/colin-cowie.svg">
-	<img src="./img/brand/elle.svg">
-	<img src="./img/brand/hilton.svg"><br>
-	<img src="./img/brand/mkg.svg">
-	<img src="./img/brand/vogue.svg">
-	<img src="./img/brand/w-hotels.svg">
-	<img src="./img/brand/wonderland.png">
+	<img src="./img/brand/basset-events.svg" alt="Basset Events">
+	<img src="./img/brand/blackrock.svg" alt="BlackRock">
+	<img src="./img/brand/colin-cowie.svg" alt="Colin Cowie">
+	<img src="./img/brand/elle.svg" alt="Elle">
+	<img src="./img/brand/hilton.svg" alt="Hilton"><br>
+	<img src="./img/brand/mkg.svg" alt="MKG">
+	<img src="./img/brand/vogue.svg" alt="Vogue">
+	<img src="./img/brand/w-hotels.svg" alt="W Hotels">
+	<img src="./img/brand/wonderland.png" alt="Wonderland">
 </div>
 
 {% include '_quotes.html' %}
@@ -94,7 +96,7 @@ bodyclass: index
 <div uk-grid>
 <div class="uk-width-1-5@s"></div>
 <div class="uk-width-3-5@s">
-<h3 class="g">The Power of Simplicity</h3>
+<h3 class="g">The All-in-One Event Software</h3>
 <p>What sets EventPlanner Pro apart from the crowd is its commitment to simplifying every aspect of event planning. No more headaches, sleepless nights, or last-minute rushes. Event planning should be enjoyable and fulfilling, and EventPlanner Pro is here to make it just that.</p>
 <p>In an industry where attention to detail is paramount, EventPlanner Pro excels by letting you focus on what truly matters - creating unforgettable events.</p>
 <h3 class="g">Get Started with EventPlanner Pro Today</h3>

@@ -1,0 +1,4 @@
+Sitemap: https://event-planner-pro.com/sitemap.xml
+
+User-agent: *
+Disallow:
