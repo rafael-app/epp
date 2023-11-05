@@ -6,7 +6,6 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "npx @11ty/eleventy",
-    "prebuild": "css-minify -f src/style.css -o public",
     "prestart": "css-minify -f src/style.css -o public",
     "css": "css-minify -f src/style.css -o public"
   },
