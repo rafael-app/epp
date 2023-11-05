@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>https://event-planner-pro.com/</loc>
-            <lastmod>2023-11-02T01:36:53.000Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>https://event-planner-pro.com/blog/perfect-event-management-software/</loc>
-            <lastmod>2023-11-05T03:48:31.795Z</lastmod>
-        </url>
-    
-        <url>
             <loc>https://event-planner-pro.com/blog/event-planning-software-ultimate-guide/</loc>
-            <lastmod>2023-11-05T04:10:02.184Z</lastmod>
+            <lastmod>2023-11-05T11:53:13.634Z</lastmod>
         </url>
     
         <url>
             <loc>https://event-planner-pro.com/blog/free-event-design-software-beginners-guide/</loc>
-            <lastmod>2023-11-05T04:13:13.055Z</lastmod>
+            <lastmod>2023-11-05T11:53:13.634Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://event-planner-pro.com/blog/perfect-event-management-software/</loc>
+            <lastmod>2023-11-05T11:53:13.634Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://event-planner-pro.com/</loc>
+            <lastmod>2023-11-05T11:53:13.634Z</lastmod>
         </url>
     
 </urlset>

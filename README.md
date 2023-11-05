@@ -10,12 +10,14 @@ Deployed at: [https://event-planner-pro.com/](https://event-planner-pro.com/)
 
 - Setup Node
 - Clone this repository
-- Install eleventy
+- Install eleventy (terminal: npm install @11ty/eleventy --save-dev)
+- Run eleventy (terminal: npx @11ty/eleventy)
 - Scripts are inside package.json
+- Run on terminal: npm start
 
 ## Deployment
 
-- Fork / Pull this repository
+- Fork / Pull this repository so you can add it to your GitHub account
 - Create a Netlify account
 - Link to your GitHub account
 - Select Deploy from GitHub option and follow the instructions
